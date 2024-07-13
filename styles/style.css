@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 64px;
+  height: 64px;
+}
+.navitem {
+  width: 100%;
+}
+.navitem ul {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.work-btn {
+  background-color: #006aff;
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 20px 10px;
+  color: #fff;
+  border-radius: 4px;
+}
